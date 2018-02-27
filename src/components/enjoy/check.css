@@ -1,0 +1,52 @@
+
+.compselect-container{
+	position: fixed;
+	z-index: 2;
+	top: 1.88rem;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	font-size: .3rem;
+	/* background-color: rgba(0,0,0,0.3); */
+	background-color: transparent;
+}
+.compselectnav ul {
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.1);
+}
+.compselectnav p{
+	text-align: center;
+	width: 100%;
+	height: 1.08rem;
+	line-height: 1.08rem;
+	text-align: center;
+}
+.compselectnav ul li{
+  width: 100%;
+	height: .72rem;
+	line-height: .72rem;
+	text-align: center;
+	color: #a3a7b0;
+	border-bottom: 1px solid #e9e9e9;
+}
+.compselectnav ul li.compchecked{
+	color: #6ba4ea;
+}
+
+.comp-btn{
+	border-top: 1px solid #ccc;
+}
+.comp-btn button{
+	  font-size: .3rem;
+	  color: #a3a7b0;
+      width: 49%;
+      height: .78rem;
+      line-height: .78rem;
+      background: #fff;
+      margin:0.15rem 0;
+      border-right: 1px solid #d2d2d2;
+      box-sizing: border-box;
+}
+.comp-btn button.checked-btn{
+	color: #17171a;
+}

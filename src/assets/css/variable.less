@@ -1,0 +1,25 @@
+// 上边线
+.border-1px-t{
+  position: relative;
+  &:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #e9e9e9;
+  }
+}
+// 下边线
+.border-1px-b{
+  position: relative;
+  &:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #e9e9e9;
+  }
+}

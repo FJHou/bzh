@@ -1,0 +1,7 @@
+/build/
+/config/
+/dist/
+/*.js
+/src/assets/js/fit.js
+/src/components/global/globalData.js
+/src/components/global/flag-map.js
